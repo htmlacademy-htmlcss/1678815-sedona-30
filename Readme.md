@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Renat Khabirov](https://up.htmlacademy.ru/htmlcss/30/user/1678815).
-* Наставник: `Неизвестно`.
+* Наставник: [Мария Белогубова](https://htmlacademy.ru/profile/id87018).
 
 ---
 
