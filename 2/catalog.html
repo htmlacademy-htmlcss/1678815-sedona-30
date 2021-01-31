@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+  <base href="https://htmlacademy-htmlcss.github.io/1678815-sedona-30/2/">
+</head>
+<body>
+<header>
+  <nav>
+    <a><img src="img/logo.svg" height="70" width="138" alt="Логотип сайта седона"></a>
+    <ul>
+      <li><a href="blank.html">информация</a></li>
+      <li><a href="blank.html">фото и видео</a></li>
+      <li><a href="blank.html">карта штата</a></li>
+      <li><a href="catalog.html">гостиницы</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section>
+    <h2>подбор подходящего жилья</h2>
+    <form>
+      <fieldset>
+        <legend>инфраструктура:</legend>
+        <label for="seacrh-swimming-pool">бассейн</label>
+        <input type="checkbox" id="seacrh-swimming-pool" checked>
+        <label for="seacrh-parkingl">парковка</label>
+        <input type="checkbox" id="seacrh-parkingl">
+        <label for="seacrh-wi-fi">wi-fi</label>
+        <input type="checkbox" id="seacrh-wi-fi">
+      </fieldset>
+      <fieldset>
+        <legend>тип жилья:</legend>
+        <label for="seacrh-hotel">гостиница</label>
+        <input type="checkbox" id="seacrh-hotel" checked>
+        <label for="seacrh-motel">мотель</label>
+        <input type="checkbox" id="seacrh-motel" checked>
+        <label for="seacrh-appartment">апартаменты</label>
+        <input type="checkbox" id="seacrh-appartment" checked>
+      </fieldset>
+      <fieldset>
+        <legend>стоимость в сутки (р):</legend>
+        <label>от:
+          <field></field>
+        </label>
+        <label>до:
+          <field></field>
+        </label>
+        <div class='wrap' style='--a: -30; --b: 20; --min: -50; --max: 50'>
+          <input id='a' type='range' min='-50' value='-30' max='50'/>
+          <input id='b' type='range' min='-50' value='20' max='50'/>
+        </div>
+      </fieldset>
+    </form>
+  </section>
+  <section>
+    <h2>сортировка</h2>
+    <p>найдено: 3</p>
+    <ul>
+      <li><a href="#">по цене</a></li>
+      <li><a href="#">по типу</a></li>
+      <li><a href="#">по рейтингу</a></li>
+    </ul>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+  </section>
+  <section>
+    <ul>
+      <li>
+        <img src="" width="135" height="90">
+        <p>amara resort & spa</p>
+        <p>гостиница</p>
+        <p>от 4000 р.</p>
+        <button>подробнее</button>
+        <button>забронировать</button>
+        <p>Рейтинг: 8,5</p>
+      </li>
+      <li>
+        <img src="" width="135" height="90">
+        <p>desert quail inn</p>
+        <p>мотель</p>
+        <p>от 4000 р.</p>
+        <button>подробнее</button>
+        <button>забронировать</button>
+        <p>Рейтинг: 8,9</p>
+      </li>
+      <li>
+        <img src="" width="135" height="90">
+        <p>villas at poco diablo</p>
+        <p>апартаменты</p>
+        <p>от 4000 р.</p>
+        <button>подробнее</button>
+        <button>забронировать</button>
+        <p>Рейтинг: 9,2</p>
+      </li>
+    </ul>
+  </section>
+</main>
+<footer>
+  <section>
+    <h2>связаться с нами</h2>
+    <p>#visitsedona</p>
+    <p>ТЕЛ: +7(495) 666-01-66</p>
+  </section>
+  <section>
+    <h2>социальные сети</h2>
+    <ul>
+      <li><a href="#">Вконтакте</a></li>
+      <li><a href="#">Фейсбук</a></li>
+      <li><a href="#">Инстаграм</a></li>
+    </ul>
+  </section>
+  <div>
+    <p>автор сайта</p>
+    <p>Website by</p>
+    <img alt="логотип">
+  </div>
+</footer>
+</body>
+</html>
