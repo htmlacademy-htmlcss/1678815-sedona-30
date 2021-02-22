@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 <header>
@@ -20,10 +21,8 @@
   <h1>Город Седона</h1>
   <section>
     <h2>Добро пожаловать в город Седона</h2>
-    <img src="img/background.jpg" width="1200" height="509" alt="каньон"/>
-    <img src="img/welcome.svg" alt=""/>
-    <img src="img/sedona.png" alt=""/>
-    <img src="img/mask.svg" alt=""/>
+    <img class="background" src="img/background.jpg" width="1200" height="509" alt="каньон"/>
+    <img src="img/welcome.png" alt=""/>
   </section>
   <section>
     <H1>Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</H1>
@@ -38,19 +37,22 @@
     <section>
       <ul>
         <li>
-          <img src="img/icon-1.svg" alt=""/>
+          <div class="icon house-icon"></div>
+<!--          <img src="img/icon-1.svg" alt=""/>-->
           <h3>Жильё</h3>
           <h4>Рекомендуем пожить в настоящем мотеле, всё как в кино!</h4>
           <img>
         </li>
         <li>
-          <img src="img/icon-3.svg" alt=""/>
+          <div class="icon burger-icon"></div>
+<!--          <img src="img/icon-3.svg" alt=""/>-->
           <h3>Еда</h3>
           <h4>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</h4>
           <img>
         </li>
         <li>
-          <img src="img/icon-2.svg" alt=""/>
+          <div class="icon souvenir-icon"></div>
+<!--          <img src="img/icon-2.svg" alt=""/>-->
           <h3>Сувениры</h3>
           <h4>Не только китайского, но и местного производства!</h4>
           <img>
@@ -92,7 +94,7 @@
   </section>
   <section>
     <h2>карта</h2>
-    <img src="img/map.jpg">
+    <img src="img/map.jpg" alt="адрес седона">
   </section>
 </main>
 <footer>
@@ -104,9 +106,9 @@
   <section>
     <h2>социальные сети</h2>
     <ul>
-      <li><a href="#" style="background-color: #81B3D2;"><img src="img/twitter.svg" alt=""></a></li>
-      <li><a href="#" style="background-color: #81B3D2;"><img src=" img/fb-icon.svg" alt=""></a></li>
-      <li><a href="#" style="background-color: #81B3D2;"><img src=" img/youtube.svg" alt=""></a></li>
+      <li><div class="social social-twitter"></div></li>
+      <li><div class="social social-facebook"></div></li>
+      <li><div class="social social-youtube"></div></li>
     </ul>
   </section>
   <div>
