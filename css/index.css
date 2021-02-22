@@ -1,7 +1,16 @@
-.background {
-  /*background-image: url('../img/mask.svg');*/
-  clip-path: url('mask.svg');
-  /*clip-path: ellipse(60px 40px at 75px 30px);*/
+.welcome {
+  position: relative;
+}
+
+.welcome::after {
+  content: "";
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  background-image: url(../img/mask.svg);
+  background-repeat: no-repeat;
+  left: 0;
 }
 
 
