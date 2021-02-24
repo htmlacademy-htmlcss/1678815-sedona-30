@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 <header>
@@ -20,7 +21,10 @@
   <h1>Город Седона</h1>
   <section>
     <h2>Добро пожаловать в город Седона</h2>
-    <img src="img/background%20photo.png" width="1200" height="509" alt="каньон">
+    <figure class="welcome">
+    <img class="background" src="img/background.jpg" width="1200" height="509" alt="каньон"/>
+    <img src="img/welcome.png" alt=""/>
+    </figure>
   </section>
   <section>
     <H1>Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</H1>
@@ -28,22 +32,29 @@
     <section>
       <h3>Настоящий городок</h3>
       <p>— №1 —</p>
-      <img src="img/image.png" width="800" height="256" alt="фотография города">
+      <div style="display: inline-block; width: 400px; height: 256px; background-color: #81B3D2;"></div>
+      <img src="img/house.jpg" width="800" height="256" alt="фотография города">
       <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
     </section>
     <section>
       <ul>
         <li>
+          <div class="icon house-icon"></div>
+<!--          <img src="img/icon-1.svg" alt=""/>-->
           <h3>Жильё</h3>
           <h4>Рекомендуем пожить в настоящем мотеле, всё как в кино!</h4>
           <img>
         </li>
         <li>
+          <div class="icon burger-icon"></div>
+<!--          <img src="img/icon-3.svg" alt=""/>-->
           <h3>Еда</h3>
           <h4>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</h4>
           <img>
         </li>
         <li>
+          <div class="icon souvenir-icon"></div>
+<!--          <img src="img/icon-2.svg" alt=""/>-->
           <h3>Сувениры</h3>
           <h4>Не только китайского, но и местного производства!</h4>
           <img>
@@ -51,7 +62,8 @@
       </ul>
     </section>
     <section>
-      <img src="img/image.png" width="800" height="256" alt="фотография каньона">
+      <img src="img/canyon.jpg" width="800" height="256" alt="фотография каньона">
+      <div style="display: inline-block; width: 400px; height: 256px; background-color: #81B3D2;"></div>
       <h3>Там есть Мост дьявола</h3>
       <p>— №2 —</p>
       <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
@@ -84,7 +96,7 @@
   </section>
   <section>
     <h2>карта</h2>
-    <img src="img/map.png">
+    <img src="img/map.jpg" alt="адрес седона">
   </section>
 </main>
 <footer>
@@ -96,15 +108,15 @@
   <section>
     <h2>социальные сети</h2>
     <ul>
-      <li><a href="#">Вконтакте</a></li>
-      <li><a href="#">Фейсбук</a></li>
-      <li><a href="#">Инстаграм</a></li>
+      <li><div class="social social-twitter"></div></li>
+      <li><div class="social social-facebook"></div></li>
+      <li><div class="social social-youtube"></div></li>
     </ul>
   </section>
   <div>
     <p>автор сайта</p>
     <p>Website by</p>
-    <img alt="логотип">
+    <img src="img/logo-htmlacademy.svg" alt="логотип">
   </div>
 </footer>
 <section>

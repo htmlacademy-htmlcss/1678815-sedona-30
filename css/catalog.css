@@ -1,0 +1,37 @@
+.social {
+  width: 46px;
+  height: 48px;
+  background-color: #81B3D2;
+}
+
+.social-twitter {
+  background-image: url("../img/twitter.svg");
+  background-repeat: no-repeat;
+  background-size: 17px 17px;
+  background-position: 50% 50%;
+}
+
+.social-facebook {
+  background-image: url("../img/fb-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 12px 22px;
+  background-position: 50% 50%;
+}
+
+.social-youtube {
+  background-image: url("../img/youtube.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 16px;
+  background-position: 50% 50%;
+}
+
+.background {
+  background-image: url('../img/background.png');
+  background-repeat: no-repeat;
+}
+
+.stars {
+  background-image: url('../img/star.svg');
+  width: 18px;
+  height: 17px;
+}
